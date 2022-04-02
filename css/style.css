@@ -4,7 +4,7 @@
 }
 body{
     border: 1px solid #000;
-}
+}/* header */
 .logo-container{
     height: 100px;
     width: 100%;
@@ -61,7 +61,7 @@ nav ul li a:hover{
     margin-left: 20px;
 }
 .colmun{
-    width: 32%;
+    width: 32.5%;
     float: left;
     margin-right: 10px;
 }
@@ -81,7 +81,11 @@ nav ul li a:hover{
     height:230px;
 }
 .row{
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    border: 1px solid #000;
+}
+p.atract-l{
+    padding: left 10px;
 }
 
 .play{
@@ -100,6 +104,10 @@ nav ul li a:hover{
     text-align: center;
     text-decoration: underline;
     color:rgb(224 74 84);
+
+}
+   p .text{
+        height:100px;
 }
 .note-p{
     text-align: justify;
@@ -107,34 +115,45 @@ nav ul li a:hover{
     font-style: italic;  
 }
 
-.last{
-    height: 70px;
+.f-container{
+    height: 140px;
     background-color: antiquewhite;
     border:1px solid #000;
     clear: both;
     
 }
+.f-columen{
+    width: 50%;
+    float: left;
+}
 .fa{
-    
     padding-top: 20px ;
-    font-size: 30px;
-    width: 100px;
-    text-align: center;
+    font-size: 50px;
     text-decoration: none;
     color:rgb(224 74 84);
+    margin: 5px;
 }
-div ul{
-   text-align: center;  
+footer ul{
+   text-align:center; 
+ 
 }
-div ul li{
-    display: inline;
+footer nav ul {
+    text-align: center;
+}
+footer nav ul li{
+    display: block;
+    margin: 8px;
+    padding-top: 10px;
 }
 .change-c{
    color: #e04a54;
    text-align: center; 
 }
+.contact-c{
+    background-color: antiquewhite;
+}
 .holder{
-    text-align:center;
+    text-align:left;
     font-size:30px;
     margin: 20px;
 }
@@ -147,13 +166,13 @@ form textarea{
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
-    margin: auto;
+    margin: 10px;
     display: block;
 }
 form input[type=submit]{
 background-color:antiquewhite;
 display: block;
-margin: auto;
+margin:10px;
 font-size: 20px;
 border-radius: 5px;
 padding: 10 80px;
@@ -161,6 +180,14 @@ padding: 10 80px;
 form input[type=submit]:hover {
 background-color:#e04a54;
 color: #000;
+}
+iframe{
+    float: right;
+}
+ .about-h{
+    color: #e04a54;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 
